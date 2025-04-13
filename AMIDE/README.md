@@ -1,3 +1,5 @@
+Files used to benchmark RWS and TS with the amide library
+
 amide_rocs.parquet - The results of 110 queries vs 1M molecules for the amide library   
 data - the reactions used in the searches   
 rws_amide_rocs_az.json - config file for RWS  
