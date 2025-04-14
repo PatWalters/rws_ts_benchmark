@@ -15,9 +15,9 @@ This repository contains the benchmarking files used in the paper "Enhanced Thom
 |AMIDE             |Benchmarks for the amide library                |
 |QUINAZOLINE       |Benchmarks for the quinazoline library          |
 |query_mols.smi    |The query molecules used for the ROCS search    |
+|env_vars.txt      |Example environment variables                   |
 
 ### Setting enviroment variables
-
 To run the benchmark scripts below, environment variable must be set to point to the locations of the TS and TS_Enhanced repos.
 ```
 export TS_BASE=$HOME/software/TS
