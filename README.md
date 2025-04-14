@@ -2,7 +2,10 @@
 Benchmark Comparisons of RWS and TS
 
 ### Import note
-This repo contains a couple of files that are ~150MB.  Please install [Git Large File Storage](https://git-lfs.com/) before cloning this repo. 
+This repo contains a couple of files that are ~150MB.  Please install [Git Large File Storage](https://git-lfs.com/) before cloning this repo.
+
+### Requirements
+The scripts in this repo depend on the [TS](https://github.com/PatWalters/TS) and [TS_Enhanced](https://github.com/WIMNZhao/TS_Enhanced) repos.  Please clone both of these repositories before running the scripts below. 
 
 ### Files
 This repository contains the benchmarking files used in the paper "Enhanced Thompson Sampling by Roulette Wheel Selection for Screening Ultralarge Combinatorial Libraries".
