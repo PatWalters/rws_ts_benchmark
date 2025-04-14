@@ -37,7 +37,8 @@ QUINAZOLINE/ts_rocs_queries.py
 
 ### Analysis
 
-After running benchmarks, the results can be analyzed with the notebook 
+After running benchmarks, the results can be analyzed with the notebook `evaluate_rws_ts.ipynb`
+
 
 
 
