@@ -13,6 +13,13 @@ query_mols.smi - the query molecules used for the ROCS search
 
 ### Setting enviroment variables
 
+To run the benchmark scripts below, environment variable must be set to point to the locations of the TS and TS_Enhanced repos.
+```
+export TS_BASE=$HOME/software/TS
+export RWS_BASE=$HOME/software/TS_Enhanced_PW/src_multiprocess
+```
+The file env_vars.txt provides an example.
+
 ### Running the benchmarks
 
 There are four scripts required to run the benchmarks
