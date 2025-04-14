@@ -26,11 +26,12 @@ The file env_vars.txt provides an example.
 ### Running the benchmarks
 
 There are four scripts required to run the benchmarks
-
+```
 AMIDE/rws_rocs_queries.py
 AMIDE/ts_rocs_queries.py
 QUINAZOLINE/rws_rocs_queries.py
 QUINAZOLINE/ts_rocs_queries.py
+```
 
 ### Analysis
 
