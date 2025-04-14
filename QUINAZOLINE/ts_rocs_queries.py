@@ -1,8 +1,16 @@
 #!/usr/bin/env python
 
+
 import sys
-sys.path.append("/home/pwalters/software/TS")
 import os
+try:
+    base_path = os.environ["TS_BASE"]
+except:
+    print("Please define the TS_BASE environement variable",file=sys.stderr)
+    print("TS_BASE should point to the directory with the TS repo",file=sys.stderr)
+    sys.exit(1)
+sys.path.append(base_path)
+
 import pandas as pd
 from ts_main import run_ts
 import sys

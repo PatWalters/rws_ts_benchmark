@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 
-
 import sys
-sys.path.append("/home/pwalters/software/TS_Enhanced/src_multiprocess")
 import os
+try:
+    base_path = os.environ["RWS_BASE"]
+except:
+    print("Please define the RWS_BASE environement variable",file=sys.stderr)
+    print("RWS_BASE should point to the src_mutliprocess directory in TS_Enhanced",file=sys.stderr)
+    sys.exit(1)
+sys.path.append(base_path)
 import pandas as pd
 from ts_main import run_ts
 import importlib
