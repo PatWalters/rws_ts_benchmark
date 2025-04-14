@@ -11,7 +11,7 @@ The scripts in this repo depend on the [TS](https://github.com/PatWalters/TS) an
 This repository contains the benchmarking files used in the paper "Enhanced Thompson Sampling by Roulette Wheel Selection for Screening Ultralarge Combinatorial Libraries".
 
 AMIDE - Benchmarks for the amide library   
-QUINAZOLINE - Benchmarks for the amide library   
+QUINAZOLINE - Benchmarks for the quinazoline library   
 query_mols.smi - the query molecules used for the ROCS search
 
 ### Setting enviroment variables
